@@ -1,0 +1,34 @@
+multi-thread-prophet: 并发模式下的prophet机器学习
+--m1.py: 某一并发
+--m2.py: 某一并发
+--data1.txt: 第1天的股票筛选情况
+--data2.txt: 第2天的股票筛选情况
+--……
+
+multi-thread2-LSTM: LSTM一次预测9月的股票值
+--n1.py: LSTM
+--data.txt: LSTM的各天股票筛选情况
+--lastday.csv: 各支股票的8.30号收盘价
+--test.csv: 各天股票的预测值
+
+multi-thread3_moving-average: 移动平均法
+--data.txt: 移动平均法下的各天股票预测值
+
+draw_plot.py: 画图
+	      里面有三种算法的收益率集合
+
+prophetapi.py: prophet的调用，在沪深300成分股预测.py中有调用
+
+strategy_data.txt: 移动平均法的股票收益分析
+strategy_data2.txt: prophet的股票收益分析
+strategy_data3.txt: LSTM的股票收益分析
+
+test.csv
+
+trade_data.txt: 移动平均法的股票交易情况
+trade_data2.txt: prophet的股票交易情况
+trade_data2.txt: LSTM的股票收益分析
+
+沪深300成分股预测.py: 使用交易策略集成
+
+沪深300指数.py: 输出沪深300指数
